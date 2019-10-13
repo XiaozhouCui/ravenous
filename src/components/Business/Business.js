@@ -15,7 +15,8 @@ let business = {
 
 class Business extends React.Component {
   render() {
-    <div className="Business">
+    return (
+      <div className="Business">
       <div className="image-container">
         <img src={ business.imageSrc } alt=''/>
       </div>
@@ -33,6 +34,7 @@ class Business extends React.Component {
         </div>
       </div>
     </div>
+    );
   }
 }
 
